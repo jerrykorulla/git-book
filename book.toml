@@ -1,0 +1,15 @@
+[book]
+title = "Git Book"
+description = "A personal quick reference for everyday git commands"
+authors = ["Jerry George"]
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/jerrykorulla/git-book"
+edit-url-template = "https://github.com/jerrykorulla/git-book/edit/main/{path}"
+
+[output.html.search]
+enable = true
