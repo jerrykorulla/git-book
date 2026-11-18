@@ -19,8 +19,8 @@ one-page summary.
 ## Mental model
 
 ```text
-working tree --git add--> staging area --git commit--> local repo --git push--> remote
-                (index)                                     <--git fetch/pull--
+working tree --git add--> staging area --git commit--> local repo ------git push----> remote
+                                                       local repo <--git fetch/pull-- remote
 ```
 
 - **Working tree**: the files you are editing.
